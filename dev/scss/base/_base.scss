@@ -21,6 +21,7 @@ body {
 
 a {
     text-decoration: none;
+    color: $color-dark;
 }
 
 li {
@@ -44,7 +45,28 @@ img {
     font-family: "Mulish-Regular";
 }
 
+.color-dark {
+    color: $color-dark;
+}
+.color-blue {
+    color: $color-royal-blue;
+}
+
+.text_little {
+    font-size: 18px;
+    line-height: 23px;
+    font-family: "Mulish-Regular";
+    &_gray {
+        color: $color-gray;
+    }
+}
+
 .flex {
     display: flex;
     align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
 }

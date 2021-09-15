@@ -16,12 +16,11 @@ body {
 
 body {
     position: relative;
-    background-color: $color-light-blue;
+    background-color: $color-gray95;
 }
 
 a {
     text-decoration: none;
-    color: $color-dark;
 }
 
 li {
@@ -32,6 +31,20 @@ img {
     width: 100%; // це для того, щоб картинка не іскажалась при різних розширенням
     height: auto;
 }
-button {
-    cursor: pointer;
+.wrapper {
+    margin: 0 125px;
+    font-family: $font-regular;
+}
+
+.bold {
+    font-family: "Mulish-Bold";
+}
+
+.regular {
+    font-family: "Mulish-Regular";
+}
+
+.flex {
+    display: flex;
+    align-items: center;
 }

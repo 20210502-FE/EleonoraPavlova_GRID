@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "Mulish-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/mulish/Mulish-Regular.woff2") format("woff2"), url("../assets/fonts/mulish/Mulish-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mulish-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../assets/fonts/mulish/Mulish-Bold.woff2") format("woff2"), url("../assets/fonts/mulish/Mulish-Bold.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  margin: 0 125px;
+  font-family: "Mulish-Regular";
+}
+
+.bold {
+  font-family: "Mulish-Bold";
+}
+
+.regular {
+  font-family: "Mulish-Regular";
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  padding: 61px 0 96px 0;
+}

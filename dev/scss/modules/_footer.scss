@@ -1,0 +1,22 @@
+.footer {
+    padding-bottom: 47px;
+    &__inner-item {
+        width: 15px;
+        height: 15px;
+        &_twitter {
+            width: 18px;
+            height: 14px;
+        }
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 60% 12% 12% 16%;
+    }
+    &__social {
+        display: grid;
+        grid-template-columns: repeat(2, 15px) 18px;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 24px;
+    }
+}

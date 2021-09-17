@@ -1,14 +1,16 @@
 .nav {
     padding: 61px 0 96px 0;
+    &__grids {
+        display: grid;
+        grid-template-columns: 80% 10% 10%;
+    }
     &__title {
-        flex: 1;
         font-size: 22px;
         line-height: 24px;
     }
     &__item {
-        flex: 0 0 auto;
-        &_mod {
-            padding-right: 29px;
-        }
+        display: grid;
+        align-items: flex-end;
+        justify-content: flex-end;
     }
 }

@@ -1,0 +1,26 @@
+.awards {
+    padding-bottom: 114px;
+    &__box {
+        border-top: 1px solid $color-gray;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        justify-content: space-between;
+        grid-template-rows: 110px;
+        padding: 48px 0 59px 0;
+        &_border {
+            border-bottom: 1px solid $color-gray;
+        }
+    }
+    &__item {
+        &:nth-child(5) {
+            grid-column: 2;
+        }
+        &_years {
+            display: grid;
+            justify-content: center;
+        }
+    }
+    &__inner {
+        padding-top: 12px;
+    }
+}

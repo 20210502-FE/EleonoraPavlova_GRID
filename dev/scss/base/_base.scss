@@ -11,12 +11,12 @@
 
 html,
 body {
-    min-height: 100%;
+    overflow-x: hidden;
 }
 
 body {
     position: relative;
-    background-color: $color-light-blue;
+    background-color: $color-gray95;
 }
 
 a {
@@ -32,6 +32,35 @@ img {
     width: 100%; // це для того, щоб картинка не іскажалась при різних розширенням
     height: auto;
 }
-button {
-    cursor: pointer;
+.wrapper {
+    margin: 0 125px;
+    font-family: $font-regular;
+}
+
+.bold {
+    font-family: "Mulish-Bold";
+}
+
+.regular {
+    font-family: "Mulish-Regular";
+}
+
+.color-dark {
+    color: $color-dark;
+}
+.color-blue {
+    color: $color-royal-blue;
+}
+
+.text_little {
+    font-size: 18px;
+    line-height: 23px;
+    &_gray {
+        color: $color-gray;
+    }
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
 }

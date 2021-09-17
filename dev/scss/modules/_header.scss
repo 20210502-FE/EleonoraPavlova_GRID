@@ -1,0 +1,22 @@
+.header {
+    padding-bottom: 144px;
+    &__title {
+        padding-bottom: 32px;
+    }
+    &__title-h1 {
+        flex: 1;
+        line-height: 60px;
+        padding-right: 100px;
+    }
+    &__quote {
+        padding: 0 0 20px 65px;
+        flex: 1;
+        &:before {
+            content: "";
+            border-top: 2px solid $color-gray;
+            width: 30px;
+            display: block;
+            padding-bottom: 9px;
+        }
+    }
+}

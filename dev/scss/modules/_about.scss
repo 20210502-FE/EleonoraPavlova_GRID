@@ -1,0 +1,15 @@
+.about-us {
+    padding-bottom: 101px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 63% 22% 22%;
+        grid-template-rows: 106px;
+        gap: 30px;
+        align-items: center;
+    }
+    &__item {
+        font-size: 28px;
+        line-height: 38px;
+        padding-right: 150px;
+    }
+}

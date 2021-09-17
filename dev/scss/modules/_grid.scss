@@ -1,0 +1,13 @@
+.grid {
+    padding-bottom: 91px;
+    &__wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 27px;
+    }
+    &__col {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        grid-gap: 27px;
+    }
+}
